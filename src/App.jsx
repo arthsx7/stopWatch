@@ -1,6 +1,5 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import { LenghtControl } from "./components/LenghtControl";
 import { Timer } from "./components/Timer";
 import { TimerControl } from "./components/TimerControl";
 
