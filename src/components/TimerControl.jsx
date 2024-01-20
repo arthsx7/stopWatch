@@ -1,4 +1,4 @@
-import { PiPlayPauseFill } from "react-icons/pi";
+import { HiMiniPlayPause } from "react-icons/hi2";
 import { VscDebugRestart } from "react-icons/vsc";
 
 export const TimerControl = ({ startTimer, restartTimer }) => {
@@ -6,7 +6,7 @@ export const TimerControl = ({ startTimer, restartTimer }) => {
     <div className="timer-control">
       <div id="start-top" onClick={startTimer}>
         <i className="icon-control">
-          <PiPlayPauseFill />
+          <HiMiniPlayPause />
         </i>
       </div>
       <div id="reset" onClick={restartTimer}>
